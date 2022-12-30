@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 30px;
 }
 
 .App-logo {
@@ -7,6 +8,7 @@
   pointer-events: none;
   border-radius: 50%;
   margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,13 +18,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #989ca4;
+
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
   color: white;
 }
 
