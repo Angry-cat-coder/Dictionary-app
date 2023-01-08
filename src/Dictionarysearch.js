@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./Dictionarysearch.css";
 import axios from "axios";
+import Searchresult from "./Searchresult";
 export default function Dictionarysearch() {
   let [keyWord, setkeyWord] = useState(" ");
+  let [result, setResult] = useState(null);
   function search(event) {
     event.preventDefault();
     alert(`Sarching for ${keyWord} definition`);
@@ -14,7 +16,8 @@ export default function Dictionarysearch() {
     setkeyWord(event.target.value);
   }
   function showResponse(response) {
-    console.log(response.data);
+    console.log(response.data[0]);
+    setResult(response.data[0]);
   }
   return (
     <div className="Dictionarysearch">
@@ -23,6 +26,7 @@ export default function Dictionarysearch() {
         {" "}
         <input type="search" onChange={showKeyword} />
       </form>
+      <Searchresult results={result} />
     </div>
   );
 }
