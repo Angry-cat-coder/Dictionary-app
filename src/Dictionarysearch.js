@@ -7,7 +7,7 @@ export default function Dictionarysearch() {
   let [result, setResult] = useState(null);
   function search(event) {
     event.preventDefault();
-    alert(`Sarching for ${keyWord} definition`);
+
     let upiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
     axios.get(upiUrl).then(showResponse);
   }
@@ -21,7 +21,6 @@ export default function Dictionarysearch() {
   }
   return (
     <div className="Dictionarysearch">
-      "Hello"{" "}
       <form onSubmit={search}>
         {" "}
         <input type="search" onChange={showKeyword} />
