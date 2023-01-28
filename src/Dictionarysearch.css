@@ -5,3 +5,18 @@
   border-radius: 15px;
   box-shadow: 0px 10px 10px rgb(183, 180, 180);
 }
+
+.Dictionarysearch input {
+  width: 80%;
+  display: block;
+  margin: 15px auto;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  color: #333;
+}
+.Dictionarysearch .Hint {
+  font-size: 10px;
+  margin-top: 5px;
+  text-align: center;
+}

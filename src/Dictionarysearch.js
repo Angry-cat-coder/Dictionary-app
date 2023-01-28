@@ -26,6 +26,9 @@ export default function Dictionarysearch() {
           {" "}
           <input type="search" onChange={showKeyword} />
         </form>{" "}
+        <div className="Hint">
+          suggested keywords: literature, book, wind, city etc....
+        </div>
       </section>
       <Searchresult results={result} />
     </div>
