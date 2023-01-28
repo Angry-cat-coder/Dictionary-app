@@ -7,9 +7,15 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Welcome to AngryKitty's dictionary!</p>
-        </header>
+          <div className="Welcome">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h1>
+              {" "}
+              <em>Welcome to AngryKitty's dictionary!</em>
+            </h1>
+          </div>{" "}
+          <h4>What word do you want to look up ? </h4>
+        </header>{" "}
         <Dictionarysearch />
         <footer className="App-footer">Coded by AngryKitty</footer>
       </div>
