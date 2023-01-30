@@ -17,7 +17,31 @@ function App() {
           <h4>What word do you want to look up ? </h4>
         </header>{" "}
         <Dictionarysearch />
-        <footer className="App-footer">Coded by AngryKitty</footer>
+        <footer className="App-footer">
+          <a
+            href="https://www.linkedin.com/in/yulia-isaenko-5458625b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Coded by AngryKitty
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Angry-cat-coder/Dictionary-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://hilarious-profiterole-c9ae2a.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
