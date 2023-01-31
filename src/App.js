@@ -16,7 +16,7 @@ function App() {
           </div>{" "}
           <h4>What word do you want to look up ? </h4>
         </header>{" "}
-        <Dictionarysearch />
+        <Dictionarysearch defaultKeyword="winter" />
         <footer className="App-footer">
           <a
             href="https://www.linkedin.com/in/yulia-isaenko-5458625b/"

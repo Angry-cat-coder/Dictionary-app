@@ -21,6 +21,7 @@
   background-color: #eceff4;
   font-family: Cormorant Garamond, serif;
   color: rgb(82, 77, 77);
+  margin: 0 20px;
 }
 .Welcome {
   display: flex;
@@ -41,6 +42,7 @@ h1 {
 .App-footer {
   font-size: xx-small;
   margin-top: 30px;
+  text-align: center;
 }
 @keyframes App-logo-spin {
   from {
@@ -53,5 +55,9 @@ h1 {
 @media (max-width: 960px) {
   h1 {
     font-size: 25px;
+  }
+  .Welcome {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
