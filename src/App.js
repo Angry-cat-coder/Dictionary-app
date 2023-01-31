@@ -19,7 +19,7 @@ function App() {
         <Dictionarysearch defaultKeyword="winter" />
         <footer className="App-footer">
           <a
-            href="https://www.linkedin.com/in/yulia-isaenko-5458625b/"
+            href="https://extraordinary-beignet-690091.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
