@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
+        <section className="App-header">
           <div className="Welcome">
             <img src={logo} className="App-logo" alt="logo" />
             <h1>
@@ -15,8 +15,8 @@ function App() {
             </h1>
           </div>{" "}
           <h4>What word do you want to look up ? </h4>
-        </header>{" "}
-        <Dictionarysearch defaultKeyword="winter" />
+        </section>{" "}
+        <Dictionarysearch defaultKeyword="plants" />
         <footer className="App-footer">
           <a
             href="https://extraordinary-beignet-690091.netlify.app/"
